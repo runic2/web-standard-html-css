@@ -1,0 +1,6 @@
+{
+  "editor.formatOnSave": true,
+  "editor.showUnused": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
+// 저장시 자동 정렬
