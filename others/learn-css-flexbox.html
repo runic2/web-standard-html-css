@@ -20,6 +20,7 @@
       }
 
       #child1 {
+        /* flex-basis: auto; -> 자식의 기본 너비*/
         flex: 1;
         /* = 1 1 auto 
         auto --> 1:1...:1*/
@@ -27,9 +28,13 @@
       }
       #child2 {
         flex: 1;
+        /* flex-grow: 1; -> 해당 자식이 남은 너비를 다 먹음 */
       }
       #child3 {
         flex: 1 1 200px;
+        /*증가너비 감소너비 기본너비*/
+
+        /* flex-shrink: 1; -> 부모 너비가 줄어들 때, 줄어드는 비율 */
       }
     </style>
   </head>
